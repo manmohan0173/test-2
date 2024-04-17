@@ -1,0 +1,252 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+.navbar {
+    height: 100px;
+    background-color: #2f332b;
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+.logo {
+    background-image: url("logo.jpg");
+    margin-left: 10px;
+    height: 80px;
+    background-size: cover;
+    width: 140px;
+    border-radius: 10px;
+
+}
+
+.navaddress {
+    margin-left: 400px;
+    display: block;
+    height: 50px;
+    /* border: 2px solid white; */
+    width: 900px;
+
+}
+
+.navbuttons {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 50px;
+
+}
+
+.navbuttons a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin-right: 30px;
+}
+
+.navbuttons button {
+    font-size: 1.5rem;
+    border-radius: 7px;
+    height: 50px;
+    width: 100px;
+    background-color: rgb(0, 255, 13);
+    font-weight: bold;
+}
+
+.navbuttons button:hover {
+    background-color: rgb(234, 234, 228);
+
+}
+
+.navbuttons a:hover {
+    color: gray;
+    font-size: 40px;
+    /* text-shadow: -1px 0px 6px rgba(209, 5, 5, 0.6); */
+}
+
+.container{
+    height: 630px;
+    width: 900px;
+    margin-left: 600px;
+    margin-top: 60px;
+    box-shadow: 5px 5px 10px;
+    background-color: rgb(37, 35, 35);
+    }
+
+.boxes{
+    
+    height: 40%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 60px;
+}    
+.box1{
+    border-left:  6px solid rgb(6, 240, 41);
+    /* border-top:  3px solid rgb(6, 240, 41); */
+    border-right:  6px solid rgb(6, 240, 41);
+    
+    height: 230px;
+    width: 200px;
+    background-color: rgb(52, 51, 51);
+    border-radius: 20px;
+    
+}
+.box2{
+    background-color: rgb(52, 51, 51);
+    border-radius: 20px;
+    height: 230px;
+    width: 200px;
+    border-left:  6px solid rgb(240, 6, 6);
+    /* border-top:  3px solid rgb(240, 6, 6); */
+    border-right:  6px solid rgb(240, 6, 6);
+}
+.components{
+    margin-left: 50px;
+    margin-top: 32px;
+    height: 50px;
+    /* row-gap: 30px; */
+    margin-bottom: 30px;
+
+}
+.components h2{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.components h5{
+    font-size: 30px;
+    color: grey;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.components h1{
+    font-size: 50px;
+    color: yellow;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.features{
+    height: 300px;
+    /* border: 2px solid white; */
+}
+.resolution{
+    height: 100px;
+    /* border: 2px solid white; */
+    background-color:rgb(52, 51, 51) ;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+
+.validity{
+    height: 100px;
+    /* border: 2px solid white; */
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.gaminghours{
+    height: 100px;
+    /* border: 2px solid white; */
+   background-color:rgb(52, 51, 51) ;
+   border-radius: 20px; 
+   display: flex;
+    align-items: center;
+   
+}
+
+.resolution p{
+    color:rgb(211, 220, 211) ;
+    margin-left: 40px;
+    font-size: 1.5rem;
+    
+}
+.resolution h2{
+    color: white;
+    margin-left: 80px;
+    font-size: 3rem;
+
+}
+
+.resolution h3{
+    color: white;
+    margin-left: 340px;
+    font-size: 3rem;
+}
+.validity p{
+    color:rgb(211, 220, 211) ;
+    margin-left: 30px;
+    font-size: 1.4rem;
+    
+}
+.validity h2{
+    color: rgb(211, 220, 211) ;
+    margin-left: 70px;
+    font-size: 2rem;
+
+}
+
+.validity h3{
+    color: rgb(211, 220, 211) ;
+    margin-left: 300px;
+    font-size: 2rem;
+}
+.gaminghours p{
+    color:rgb(211, 220, 211) ;
+    margin-left: 30px;
+    font-size: 1.7rem;
+    
+}
+.gaminghours h2{
+    color: white;
+    margin-left: 60px;
+    font-size: 2rem;
+
+}
+
+.gaminghours h3{
+    color: white;
+    margin-left: 300px;
+    font-size: 2rem;
+}
+.mainbody{
+    border: 2px solid black;
+    display: flex;
+    
+    height: 900px;
+    background-color: rgb(2, 0, 36);
+    background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(17, 121, 9, 1) 35%, rgba(0, 212, 255, 1) 100%);
+}
+.buttons{
+    height: 100px;
+   
+    
+    
+}
+.buttons button{
+    width: 100px;
+    height: 50px;
+    /* margin-left: 250px; */
+    margin-top: 20px;
+    border-radius: 10px;
+    /* box-shadow: 5px 5px 30px; */
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid white;
+}
+.buttons button:hover{
+    background-color: rgb(57, 55, 55);
+    color: white;
+}
+.button1{
+    margin-left: 250px;
+}
+.button2{
+    margin-left: 290px;
+}
